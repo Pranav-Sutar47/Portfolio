@@ -102,7 +102,7 @@ export default function Resume() {
                             </ul>
                             </div>
 
-                            <h4 className='circle'>PANDA NEWS<a href='https://github.com/Pranav-Sutar47/' target='blank' className='nextPage'>
+                            <h4 className='circle'>PANDA NEWS<a href='https://github.com/Pranav-Sutar47/PandaNews' target='blank' className='nextPage'>
                             <BsBoxArrowUpRight/>
                             </a> </h4>
                             <div className='borderLeft'>
