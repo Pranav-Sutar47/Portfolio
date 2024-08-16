@@ -142,10 +142,26 @@ body {
   margin-left: 20%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:908px ) {
+  .footer{
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 581px) {
  .leftGo{
   margin-left: 10%;
  }
+ .footer{
+  margin-bottom: 2%;
+  margin-top: 72%;
+ }
+ .setBorder{
+  margin-left: 1%;
+}
+  .textGo{
+    display: inline;
+  }
 }
 
 .red{
