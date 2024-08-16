@@ -7,7 +7,143 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-item{
+  cursor: pointer;
+  /* margin-left: 1%; */
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid yellow;
+  color: yellow;
+  animation-duration: 500ms;
+}
+
+.header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name{
+  font-family:'Poppins, sans-serif';
+}
+
+.info{
+  border-bottom: 2px solid   #00b33c;
+}
+
+.link{
+  font-size: 30px;
+  color:cyan;
+  text-align: center;
+  border-radius: 20%;
+  margin:5%;
+  background-color: black;
+}
+
+.link:hover{
+  background-color: white;
+  font-size: 25px;
+  animation-duration: 400ms;
+}
+
+.footer{
+  margin-top: 10%;
+  text-align: right;
+}
+
+.nameGreen{
+  color:#00b33c !important;
+}
+
+.about{
+  text-align: start;
+}
+
+.about::after{
+  content: '';
+  display: inline-block;
+  width: 10%;
+  margin-inline-start: 1%;
+  height: 2px;
+  background-color: #00b33c;
+}
+
+.setBorder{
+  background-color: #1a1a1a;
+}
+
+.setBorder:hover{
+  background-color: 	 #404040;
+  border-radius:5%;
+}
+
+.text{
+  font-size: larger;
+}
+
+.circle{
+  padding-left: 25px;
+  color: #00b33c;
+  position: relative;
+}
+
+.circle::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 0%;
+  top:23%;
+  transform: translateX(-40%);
+  border-radius: 50%;
+  background-color: #00b33c;
+  margin-top: 1%;
+}
+
+.borderLeft{
+  border-left: #00b33c;
+  padding: 2%;
+  border-left: 2px solid #00b33c ;
+}
+
+.allBorder{
+  background-color: #404040;
+  padding: 1%;
+  width: fit-content;
+}
+
+.nextPage{
+  color: #00b33c;
+  margin-left: 2%;
+  position: absolute;
+  font-size: 20px;
+  margin-top: 0%;
+  padding: 2%;
+  transform: translateY(-30%) !important;
+}
+
+.nextPage:hover{
+  color: blue;
+}
+
+.background{
+  background-color: rgba(204, 204, 204, 0.1);
+  align-items: center;
+  text-align: center;
+}
+.background:hover{
+  background-color:#18d26e;
+}
+
+.center{
+  margin-left: 20%;
+}
+
+.leftGo{
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 480px) {
+ .leftGo{
+  margin-left: 10%;
+ }
 }
