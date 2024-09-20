@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 const Typewriter = () => {
-  const sentences = [
-    "I am a Frontend Developer",
-    "I am a Backend Developer",
-    "I am a Problem Solver"
-  ];
+    const sentences = useMemo(() => [
+        "I am a Frontend Developer",
+        "I am a Backend Developer",
+        "I am a Problem Solver"
+      ], []);
 
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -46,10 +46,10 @@ const Typewriter = () => {
     );
 
     return () => clearTimeout(typingTimeout);
-  }, [charIndex, isDeleting, sentenceIndex]);
+  }, [charIndex, isDeleting, sentenceIndex, sentences]);
 
   return (
-    <div style={{ textAlign: "start", marginTop: "100px", fontFamily: "Arial",color: "gray", marginTop: "1%" }}>
+    <div style={{ textAlign: "start", fontFamily: "Arial",color: "gray", marginTop: "1%" }}>
       <h3>
         {currentText}
         <span className="cursor">|</span>
