@@ -50,10 +50,10 @@ const Typewriter = () => {
 
   return (
     <div style={{ textAlign: "start", marginTop: "100px", fontFamily: "Arial",color: "gray", marginTop: "1%" }}>
-      <h1>
+      <h3>
         {currentText}
         <span className="cursor">|</span>
-      </h1>
+      </h3>
       <style>{`
         .cursor {
           display: inline-block;
