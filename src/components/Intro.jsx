@@ -4,12 +4,14 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BsBoxArrowInDown } from "react-icons/bs";
 import { Tooltip } from 'react-tooltip'
+import Typewriter from "./TypeWriter";
 
 export default function Intro(){
     return(
         <div className="container mt-3">
             <h1 className="font-bold text-white text-start mt-3 header">Pranav Sutar</h1>
             <div>
+                <Typewriter/>
                 <h2 className="name text-white text-start mt-3"> PCCOE'26 | Full-Stack Development
                     <br/>
                     <br/>
