@@ -1,5 +1,5 @@
 import React from 'react'
-import myphoto from '../assets/myphoto.jpg'
+import myphoto from '../assets/pranav.jpg'
 import { FaChevronRight } from "react-icons/fa";
 import Skills from './Skills';
 
