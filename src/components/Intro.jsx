@@ -39,7 +39,7 @@ export default function Intro(){
                 data-tooltip-content="Github"
                 data-tooltip-place="bottom"
                 ><Tooltip id="my-tooltip" /> <FaGithub className="mb-2"/> </a>
-                <a href="/" className="nav-item link"
+                <a href="https://drive.google.com/file/d/1Id0F_Nz1yz1k0oObjPL3hETYtGOMHBGK/view?usp=sharing" target="black" className="nav-item link"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Resume"
                 data-tooltip-place="bottom"
