@@ -3,8 +3,8 @@ import React, { useState, useEffect, useMemo } from "react";
 const Typewriter = () => {
     const sentences = useMemo(() => [
         "I am a Frontend Developer",
-        "I am a Java Developer",
         "I am a Backend Developer",
+        "I am a Java Developer",
         "I am a Problem Solver"
       ], []);
 

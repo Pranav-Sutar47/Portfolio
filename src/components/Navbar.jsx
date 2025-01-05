@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import {Link,Outlet} from 'react-router-dom'
 import ContactMe from './ContactMe';
-//import ContactMe from './ContactMe';
+
 export default function Navbar() {
     const[toggle,setToggle] = useState(0);
-   // const[showMsg,setShowMsg] = useState(false);
 
     const changeProps =()=>{
         setToggle(1);
@@ -36,10 +35,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <form className="nav-item">
-                            {/* <button className="btn btn-outline-light" type="submit">
-                            <img src={contact} alt='contact' width={15}/>   */}
                             <ContactMe/>  
-                            {/* </button>     */}
                         </form>
                     </div>
 
