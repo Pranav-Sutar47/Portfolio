@@ -105,12 +105,12 @@ function ContactMe() {
                   <Form ref={form} onSubmit={sendEmail}>
                       <Form.Group className="mb-3">
                           <Form.Label>Your Name</Form.Label>
-                          <Form.Control type="text" placeholder="Enter Name" name='from_name' id='your_name' onChange={handleChange}/>
+                          <Form.Control type="text" required placeholder="Enter Name" name='from_name' id='your_name' onChange={handleChange}/>
                           {err.name && <span className='red'>{err.name}</span>}
                       </Form.Group>
                       <Form.Group className="mb-3">
                           <Form.Label>Email</Form.Label>
-                          <Form.Control type="email" onChange={handleChange} placeholder="Email"   id='your_email' name='from_email' />
+                          <Form.Control type="email" required onChange={handleChange} placeholder="Email"   id='your_email' name='from_email' />
                           {err.email && <span className='red'>{err.email}</span>}
                       </Form.Group>
                       <Form.Group className="mb-3">
