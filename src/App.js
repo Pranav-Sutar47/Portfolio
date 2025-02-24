@@ -5,10 +5,21 @@ import Resume from './components/Resume';
 import Achievements from './components/Achievements';
 import About from './components/About';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react';
 // import ContactMe from './components/ContactMe';
 // import { Bounce, ToastContainer } from 'react-toastify';
 
 function App() {
+
+  useEffect(() => {
+    const disableRightClick = (event) => event.preventDefault();
+    document.addEventListener("contextmenu", disableRightClick);
+    
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+    };
+  }, []);
+
   return (
     <div className="App">
       <BrowserRouter>

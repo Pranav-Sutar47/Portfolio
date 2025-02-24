@@ -4,7 +4,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 export default function Resume() {
     return (
         <>
-            <div className="container mt-2">
+            <div className="container mt-2 bg-dark p-2 rounded-3">
                 <h6 className='text-white about'>RESUME</h6>
                 <h1 className='text-white' style={{ textAlign: 'start' }}>CHECK OUT MY RESUME</h1>
                 <div className="row mt-3">
@@ -57,20 +57,20 @@ export default function Resume() {
                             </div>
                             <h3 className='text-white text-start mt-3'>Professional Experience</h3>
                             <div className='text-white text-start p-1'>
+                                <h4 className='circle'>Kanbro Corporation</h4>
+                                <div className='borderLeft'>
+                                    <h6 className='allBorder'>2025</h6>
+                                    <em>
+                                        Software Developer Intern
+                                    </em>
+                                </div>
+                            </div>
+                            <div className='text-white text-start p-1'>
                                 <h4 className='circle'>Innobyte Services</h4>
                                 <div className='borderLeft'>
                                     <h6 className='allBorder'>2024</h6>
                                     <em>
                                         Web Developer Intern
-                                    </em>
-                                </div>
-                            </div>
-                            <div className='text-white text-start p-1'>
-                                <h4 className='circle'>Microchip</h4>
-                                <div className='borderLeft'>
-                                    <h6 className='allBorder'>2024</h6>
-                                    <em>
-                                        Embedded System Developer Internshhip
                                     </em>
                                 </div>
                             </div>
@@ -129,42 +129,63 @@ export default function Resume() {
                                     </li>
                                 </ul>
                             </div>
-                            <h4 className='circle'>Task Manager<a href='https://taskvibe.netlify.app/login' target='blank' className='nextPage'>
+                            <h4 className='circle'>Derma Sense<a href='https://github.com/Pranav-Sutar47/DermaSense' target='blank' className='nextPage'>
                                 <BsBoxArrowUpRight />
                             </a> </h4>
                             <div className='borderLeft'>
                                 <ul>
-                                    <li>CRUD Operations: Enabled task creation, editing, updating, and deletion with real-time updates.</li>
                                     <li>
-                                    Authentication Implement user authentication with JWT (JSON Web Tokens) to secure task management. Login and Register routes on the backend with JWT issuance upon successful authentication.
+                                    Skin Cancer Prediction: Upload an image of the affected skin area, and the AI model detects the possibility of skin cancer.
                                     </li>
                                     <li>
-                                    Database Design: Used MongoDB for storing user and task data with efficient indexing for fast retrieval.
+                                    AI-Based Preventive Measures: The detected results are analyzed using Gemini AI, which provides personalized preventive measures.
                                     </li>
                                     <li>
-                                    Backend API: Built scalable RESTful APIs using Express.js for task management operations.
+                                    Nearby Hospitals Locator: Integrated with Mapbox to show nearby hospitals for immediate medical assistance.
+                                    </li>
+                                    <li>
+                                    Seamless Integration: Frontend collects user data and sends it to the backend (Express.js), which then communicates with Flask for AI-based predictions. Results are further enhanced using Gemini AI.
                                     </li>
                                 </ul>
                             </div>
-                            <h4 className='circle'>INSTA CAFE AND RESTAURANT<a href='https://github.com/Pranav-Sutar47/InstaCafeAndRestaurant' target='blank' className='nextPage'>
+                            
+                            <h4 className='circle'>Innoveda<a href='https://github.com/Pranav-Sutar47/Innoveda' target='blank' className='nextPage'>
                                 <BsBoxArrowUpRight />
                             </a> </h4>
                             <div className='borderLeft'>
                                 <ul>
-                                    <li>Online Ordering System:The website allows customers to place orders online, streamlining the order-taking process for the cafe or restaurant.Customers can browse the menu, select items, and complete their orders through the website.</li>
                                     <li>
-                                        Menu Management:The website includes an admin panel where the restaurant can manage its menu.Items can be added, removed, or updated easily to reflect current offerings
+                                        For Students 
+                                        <ul>
+                                            <li>
+                                            Group Registration: Students can register as a group to work collaboratively.
+                                            </li>
+                                            <li>
+                                            Research Paper Upload: Upload PDF versions of research papers.
+                                            </li>
+                                            <li>
+                                            View Comments: Access feedback and comments provided by faculty on the uploaded research papers.
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        Responsive Design:The website is designed to be responsive, ensuring it works well on desktops, tablets, and smartphones.
-                                    </li>
-                                    <li>
-                                        Order Notifications:The system sends email or SMS notifications to customers to confirm orders and provide updates.Restaurant staff also receive notifications for new orders.
+                                        For Teachers 
+                                        <ul>
+                                            <li>
+                                            Login for Faculty: Secure login for teachers to access student submissions.
+                                            </li>
+                                            <li>
+                                            Review Papers: Check the research papers uploaded by students.
+                                            </li>
+                                            <li>
+                                            Provide Feedback: Add comments and review notes for students to improve their work.
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
+                        <h6 className='text-primary'>For more projects checkout my Github!</h6>
 
                     </div>
                 </div>

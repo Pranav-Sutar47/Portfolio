@@ -28,22 +28,23 @@ export default function Intro(){
                     data-tooltip-id="my-tooltip"
                     data-tooltip-content="Facebook"
                     data-tooltip-place="bottom"
-                ><Tooltip id="my-tooltip" /><FaInstagramSquare className="mb-2"/></a>
+                ><FaInstagramSquare className="mb-2"/></a>
                 <a href="https://www.linkedin.com/in/pranav-sutar-2b2a002b5/" target="blank" className="nav-item link"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Linkedin"
                 data-tooltip-place="bottom"
-                ><Tooltip id="my-tooltip" /><FaLinkedin className="mb-2"/></a>
+                ><FaLinkedin className="mb-2"/></a>
                 <a href="https://github.com/Pranav-Sutar47" target="blank" className="nav-item link"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Github"
                 data-tooltip-place="bottom"
-                ><Tooltip id="my-tooltip" /> <FaGithub className="mb-2"/> </a>
+                ><FaGithub className="mb-2"/> </a>
                 <a href="https://drive.google.com/file/d/1Id0F_Nz1yz1k0oObjPL3hETYtGOMHBGK/view?usp=sharing" target="black" className="nav-item link"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Resume"
                 data-tooltip-place="bottom"
-                ><Tooltip id="my-tooltip" /> <BsBoxArrowInDown className="mb-2" /> </a>
+                > <BsBoxArrowInDown className="mb-2" /> </a>
+                <Tooltip id="my-tooltip" />
             </div>
         </div>
     );
