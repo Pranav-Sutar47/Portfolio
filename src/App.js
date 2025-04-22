@@ -30,7 +30,6 @@ function App() {
           <Route path='/resume' element={<Resume />} />
           <Route path='/achievements' element={<Achievements />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
 
     </div>
